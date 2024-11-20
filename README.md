@@ -1,4 +1,4 @@
-# QRVerse
+# QrVerse
 
 Create Dynamic QR Codes Directly in Power Platform
 
@@ -16,9 +16,17 @@ QRVerse Pro is a powerful connector that allows you to generate various types of
 - Generate URL QR Codes: Direct users to websites instantly.
 
 
+## QRVerse in Power Platform
+### Download the QRVerse Solution:
+You can download the QRVerse managed solution from the Github repository [here](https://github.com/NatiTurts/QRVerse-Solution):
+
+### Import the QRVerse Solution:
+Within Power Apps or Power Automate, navigate to Solutions and import the QRVerse managed solution.
+
+
 ## How to Configure and Use
 ### Obtain API Key
-1. Visit RapidAPI [here](https://rapidapi.com/turtledovecloudsolutions12-turtledovecloudsolutions-default/api/qrverse3/pricing)
+1. Visit RapidAPI [here](https://rapidapi.com/turtledovecloudsolutions12-turtledovecloudsolutions-default/api/qrverse-pro)
 2. Subscribe to a plan
 3. Obtain your unique API key upon subcription
 
@@ -29,9 +37,8 @@ QRVerse Pro is a powerful connector that allows you to generate various types of
 4. Use the appropriate endpoint (below)
 5. Include your API Key in the headers:
 ```
-"Content-Type": "application/json",
-"x-rapidapi-host": "qrverse3.p.rapidapi.com",
-"x-rapidapi-key": "YOUR_API_KEY" 
+"X-RapidAPI-Key": "YOUR_API_KEY",
+"Content-Type": "application/json"
 ```
 6. Construct the JSON body according to the schema of the QR code you wish to generate.
 
@@ -46,7 +53,7 @@ QRVerse Pro is a powerful connector that allows you to generate various types of
 ## API Endpoints and Schemas
 **Generate WiFi QR Code**
 
-- Endpoint: `https://qrverse3.p.rapidapi.com/generate/wifi`
+- Endpoint: `https://qrverse-pro.p.rapidapi.com/generate/wifi`
 - Schema: 
 ```
 {
@@ -66,7 +73,7 @@ QRVerse Pro is a powerful connector that allows you to generate various types of
 
 **Generate vCard QR Code**
 
-- Endpoint: `https://qrverse3.p.rapidapi.com/generate/vcard`
+- Endpoint: `https://qrverse-pro.p.rapidapi.com/generate/vcard`
 - Schema: 
 ```
 {
@@ -97,7 +104,7 @@ QRVerse Pro is a powerful connector that allows you to generate various types of
 
 **Generate Location QR Code**
 
-- Endpoint: `https://qrverse3.p.rapidapi.com/generate/location`
+- Endpoint: `https://qrverse-pro.p.rapidapi.com/generate/location`
 - Schema: 
 ```
 {
@@ -117,7 +124,7 @@ QRVerse Pro is a powerful connector that allows you to generate various types of
 
 **Generate Event QR Code**
 
-- Endpoint: `https://qrverse3.p.rapidapi.com/generate/event`
+- Endpoint: `https://qrverse-pro.p.rapidapi.com/generate/event`
 - Schema: 
 ```
 {
@@ -141,7 +148,7 @@ QRVerse Pro is a powerful connector that allows you to generate various types of
 
 **Generate URL QR Code**
 
-- Endpoint: `https://qrverse3.p.rapidapi.com/generate/url`
+- Endpoint: `https://qrverse-pro.p.rapidapi.com/generate/url`
 - Schema: 
 ```
 {
@@ -160,18 +167,11 @@ QRVerse Pro is a powerful connector that allows you to generate various types of
 
 ## Costing
 - Basic: $0.00/month for up to 10 API calls.
-- Pro: $5.00/month for up to 500 API calls
-- Ultra: $15.00/month for up to 1,000 API calls
+- Pro: $5.00/month for up to 1,000 API calls
+- Ultra: $15.00/month for up to 50,000 API calls
 - Mega: Unlimited calls at $0.004/call
 
 
-## QRVerse in Power Platform
-### Download the QRVerse Solution:
-You can download the QRVerse managed solution from the Github repository [here](https://github.com/NatiTurts/QRVerse-Solution):
-
-
-### Import the QRVerse Solution:
-Within Power Apps or Power Automate, navigate to Solutions and import the QRVerse managed solution.
 
 ## Support
 For assistance, please visit our Support Center or contact us at support@turtledovecloudsolutions.com.
