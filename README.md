@@ -18,7 +18,7 @@ QRVerse Pro is a powerful connector that allows you to generate various types of
 
 ## How to Configure and Use
 ### Obtain API Key
-1. Visit RapidAPI [here](https://rapidapi.com/turtledovecloudsolutions12-turtledovecloudsolutions-default/api/qrverse3)
+1. Visit RapidAPI [here](https://rapidapi.com/turtledovecloudsolutions12-turtledovecloudsolutions-default/api/qrverse3/pricing)
 2. Subscribe to a plan
 3. Obtain your unique API key upon subcription
 
