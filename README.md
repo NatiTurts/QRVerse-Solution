@@ -164,5 +164,14 @@ QRVerse Pro is a powerful connector that allows you to generate various types of
 - Ultra: $15.00/month for up to 1,000 API calls
 - Mega: Unlimited calls at $0.004/call
 
+
+## QRVerse in Power Platform
+### Download the QRVerse Solution:
+You can download the QRVerse managed solution from the Github repository [here](https://github.com/NatiTurts/QRVerse-Solution):
+
+
+### Import the QRVerse Solution:
+Within Power Apps or Power Automate, navigate to Solutions and import the QRVerse managed solution.
+
 ## Support
 For assistance, please visit our Support Center or contact us at support@turtledovecloudsolutions.com.
