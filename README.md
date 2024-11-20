@@ -29,8 +29,9 @@ QRVerse Pro is a powerful connector that allows you to generate various types of
 4. Use the appropriate endpoint (below)
 5. Include your API Key in the headers:
 ```
-"X-RapidAPI-Key": "YOUR_API_KEY",
-"Content-Type": "application/json"
+"Content-Type": "application/json",
+"x-rapidapi-host": "qrverse3.p.rapidapi.com",
+"x-rapidapi-key": "YOUR_API_KEY" 
 ```
 6. Construct the JSON body according to the schema of the QR code you wish to generate.
 
